@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "serverless": "^4.6.4",
+    "serverless-offline": "^14.4.0"
+  }
+}
