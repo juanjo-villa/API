@@ -18,3 +18,8 @@ var/
 
 # Serverless directories
 .serverless
+
+#Ignorar mode module y .venv
+node_modules/
+.venv/
+__pycache__/

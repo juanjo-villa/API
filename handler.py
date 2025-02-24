@@ -10,3 +10,13 @@ def hello(event, context):
     response = {"statusCode": 200, "body": json.dumps(body)}
 
     return response
+
+def hola_mundo(event, context):
+    body = {
+        "message": "Go Serverless v3.0! hola mundo Your function executed successfully!",
+        "input": event,
+    }
+
+    response = {"statusCode": 200, "body": json.dumps(body)}
+
+    return response

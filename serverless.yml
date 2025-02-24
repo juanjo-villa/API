@@ -16,4 +16,9 @@ functions:
       - http:
           path: /hola
           method: get
-
+hola_mundo:
+    handler: handler.hola_mundo
+    events:
+      - http:
+          path: /ss
+          method: get
